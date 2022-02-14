@@ -4,7 +4,7 @@ public class Stage05 {
         String str = "Hello World!";
         char[] charr = str.toCharArray();
         for (int i = 0; i < str.length(); i++) {
-            System.out.print(charr[i] + "(" + (int)charr[i] +  ")\t");// + (int)charr[i]
+            System.out.print(charr[i] + "(" + (int)charr[i] +  ")\t");
         }
     }
 }
